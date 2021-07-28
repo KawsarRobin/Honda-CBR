@@ -6,12 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CBR Honda</title>
+    <!-- Bootstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custome Css -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Header start -->
     <header>
-        <section>
+        <section class="header-top">
+            <div class="container d-flex flex-md-row flex-column justify-content-around align-items-center py-5">
+                <div class="text-white">
+                    <p>Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="headline">Honda CBR 300R</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam obcaecati hic veniam aliquid?
+                        Nisi,
+                        ex provident alias saepe tenetur hic!</p>
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="purchase-btn btn text-white rounded-3 border-0" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-fluid m-5">
+                    <img src="images/header-bike.png" alt="" width="300px">
+                </div>
+            </div>
+
 
         </section>
 
@@ -20,10 +65,38 @@
 
     <!-- Main Start  -->
     <main>
+        <Section class="container">
+            <div class="feature-title text-center my-5">
+                <h2 class="featured-title-1">Featured Bikes 2021</h2>
+                <small class="featured-title-2"> Best bike collection</small>
+            </div>
+            <div class="row gx      -5 my-5">
+                <div class="col-12 col-md-6 col-lg-4 p-3">
+                    <img src="images/feature-bike.jpg" alt="" width="280px" class="grey-img img-fluid">
+                </div>
+                <div class="col col-md-6 col-lg-4 p-3">
+                    <img src="images/feature-bike.jpg" alt="" width="280px" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 p-3">
+                    <img src="images/feature-bike.jpg" alt="" width="280px" class="grey-img img-fluid">
+                </div>
 
+            </div>
+        </Section>
     </main>
     <!-- Main End -->
 
+    <!-- Footer Start  -->
+    <footer>
+
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Js bundle link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

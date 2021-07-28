@@ -1,0 +1,21 @@
+
+/* Header Style  */
+.header-top{
+    background-color: #264653;
+}
+.purchase-btn{
+    background-color: #E76F51;
+}
+.headline, .featured-title-1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/* Feature style */
+.featured-title-2{
+    color: #E76F51;
+    font-weight: 600;
+}
+.grey-img{
+    filter: grayscale(1);
+}
