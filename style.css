@@ -1,4 +1,3 @@
-
 /* Header Style  */
 .header-top{
     background-color: #264653;
@@ -6,16 +5,60 @@
 .purchase-btn{
     background-color: #E76F51;
 }
-.headline, .featured-title-1{
-    font-size: 3rem;
+.headline{
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 /* Feature style */
+.featured-title-1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
 .featured-title-2{
     color: #E76F51;
     font-weight: 600;
 }
 .grey-img{
     filter: grayscale(1);
+}
+
+/* Clint's Feedback */
+.client-title-1{
+    color: #0A0826;
+    font-size: 2.5rem;
+    
+}
+.client-title-2{
+    color: #E76F51;  
+    font-size: 2.5rem; 
+}
+.feedback-details{
+    color: #6C6C6C;
+}
+.rating-stars{
+    color: #E77C40
+}
+.client-name{
+    color: #23A6F0
+}
+.client-occupasion{
+    color: #252B42;
+    font-weight: 600;
+}
+.card-img-3{
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* FAQ */
+.faq-title-1{
+    color: #0A0826;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.faq-title-2{
+    color: #E76F51;  
+    font-size: 2.5rem; 
+    font-weight: 600;
 }
