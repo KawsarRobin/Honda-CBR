@@ -9,7 +9,6 @@
     font-size: 2.5rem;
     font-weight: 600;
 }
-
 /* Feature style */
 .featured-title-1{
     font-size: 3rem;
@@ -25,12 +24,10 @@
 .grey-img:hover{
     filter: grayscale(0);
 }
-
 /* Clint's Feedback */
 .client-title-1{
     color: #0A0826;
-    font-size: 3rem;
-    
+    font-size: 3rem;    
 }
 .client-title-2{
     color: #E76F51;  
@@ -49,7 +46,11 @@
     color: #252B42;
     font-weight: 600;
 }
-
+.card-img-top-3{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
 /* FAQ */
 .faq-title-1{
     color: #0A0826;
