@@ -12,7 +12,7 @@
 
 /* Feature style */
 .featured-title-1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 600;
 }
 .featured-title-2{
@@ -22,16 +22,19 @@
 .grey-img{
     filter: grayscale(1);
 }
+.grey-img:hover{
+    filter: grayscale(0);
+}
 
 /* Clint's Feedback */
 .client-title-1{
     color: #0A0826;
-    font-size: 2.5rem;
+    font-size: 3rem;
     
 }
 .client-title-2{
     color: #E76F51;  
-    font-size: 2.5rem; 
+    font-size: 3rem; 
 }
 .feedback-details{
     color: #6C6C6C;
@@ -46,10 +49,6 @@
     color: #252B42;
     font-weight: 600;
 }
-.card-img-3{
-    width: 200px;
-    border-radius: 50%;
-}
 
 /* FAQ */
 .faq-title-1{
@@ -61,4 +60,19 @@
     color: #E76F51;  
     font-size: 2.5rem; 
     font-weight: 600;
+}
+/* Explore Honda bikes */
+.explore-title-1{
+    color: #0A0826;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.explore-title-2{
+    color: #E76F51;  
+    font-size: 2.5rem; 
+    font-weight: 600;
+}
+.exp-card:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
 }
