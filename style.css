@@ -52,6 +52,10 @@ Feature style
     color: #252B42;
     font-weight: 600;
 }
+.card-img-top{
+    width: 50%;
+}
+
 /*----------------
       F.A.Q 
 ----------------- */
